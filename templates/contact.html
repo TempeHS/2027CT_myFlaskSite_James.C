@@ -1,7 +1,56 @@
 {% extends 'base.html' %} {% block title %}Contact - My Flask Site{% endblock %}
 {% block content %}
-<div class="container mt-5">
-  <h1>Contact Us</h1>
-  <p>Contact form coming soon!</p>
+<div class="container py-5">
+  <h1 class="text-center mb-5">Contact Us</h1>
+
+  <div class="row">
+    <!-- Map Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="map-container">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5481.096733873089!2d151.27365177732983!3d-33.89106632021522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ad9c228460c7%3A0x3855b4c538fab758!2sBondi%20Beach%20Graffiti%20Wall!5e1!3m2!1sen!2sau!4v1781240540815!5m2!1sen!2sau" 
+      width="600"
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-refeen-downgrade">rrer-wh
+      </iframe>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Info Column -->
+    <div class="col-lg-6 mb-4">
+      <!-- Contact form will go here in next lesson -->
+
+      <!-- Contact Info -->
+      <div class="contact-info mt-4">
+        <h4>Get in Touch</h4>
+        <p>Have questions? We'd love to hear from you!</p>
+
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <strong>📍 Address:</strong><br />
+            123 Main Street<br />
+            Sydney, NSW 2000
+          </li>
+          <li class="mb-3">
+            <strong>📞 Phone:</strong><br />
+            (02) 1234 5678
+          </li>
+          <li class="mb-3">
+            <strong>✉️ Email:</strong><br />
+            <a href="mailto:info@myflasksite.com">info@myflasksite.com</a>
+          </li>
+          <li class="mb-3">
+            <strong>🕐 Hours:</strong><br />
+            Mon-Fri: 9am - 5pm<br />
+            Sat-Sun: Closed
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock %}
