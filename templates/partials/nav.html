@@ -5,13 +5,13 @@
       href="{{ url_for('home') }}"
     >
       <img
-        src="/static/images/placeholder_image.webp"
+        src="/static/images/Site_Logo.png"
         alt="Logo"
-        width="50"
-        height="50"
+        width="100"
+        height="100"
         class="me-2"
       />
-      <span>Street Art Station</span>
+      <span class="fs-2 fw-bold">Street Art Station</span>
     </a>
     <button
       class="navbar-toggler"
@@ -36,7 +36,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="{{ url_for('articles') }}">Articles</a>
         </li>
 
         <li class="nav-item dropdown">
@@ -50,8 +50,12 @@
           </a>
 
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Support</a></li>
-            <li><a class="dropdown-item" href="#">Report</a></li>
+            <li><a class="dropdown-item" href="Support">Support</a></li>
+            <li>
+              <a class="dropdown-item" href="{{ url_for('contact') }}"
+                >Report</a
+              >
+            </li>
             <li><hr class="dropdown-divider" /></li>
             <li>
               <a class="dropdown-item" href="{{ url_for('contact') }}">

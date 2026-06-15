@@ -1,9 +1,12 @@
 /* Custom styles for My Flask Site */
 
 body {
-  padding-top: 10px; /* Space for fixed navbar */
+  padding-top: 5px; /* Space for fixed navbar */
 }
 
+body {
+  padding-bottom: 100px; /* Space for fixed navbar */
+}
 /* Hero Carousel Styles */
 .carousel-item img {
   height: 800px;
@@ -113,4 +116,10 @@ section h2 {
 .contact-form .form-label {
   font-weight: 500;
   margin-bottom: 5px;
+}
+
+/*custom font*/
+
+body {
+  font-family: "Rubik", sans-serif;
 }

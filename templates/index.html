@@ -153,7 +153,16 @@
 </section>
 
 <div class="container mt-5">
-  <h1>Welcome to My Website!</h1>
-  <p class="lead">This site is built with Flask and Bootstrap.</p>
+  <h1 class="text-center">Welcome to the world of street art!</h1>
+  <p class="lead text-center">
+    Checkout our latest articles to learn more about the graffiti world.
+  </p>
 </div>
+
+<div class="d-flex justify-content-center mt-5">
+  <a href="{{ url_for('articles') }}" class="btn btn-primary btn-lg px-5 py-3">
+    View articles!
+  </a>
+</div>
+
 {% endblock %}
