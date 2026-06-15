@@ -4,9 +4,6 @@ body {
   padding-top: 5px; /* Space for fixed navbar */
 }
 
-body {
-  padding-bottom: 100px; /* Space for fixed navbar */
-}
 /* Hero Carousel Styles */
 .carousel-item img {
   height: 800px;
@@ -122,4 +119,25 @@ section h2 {
 
 body {
   font-family: "Rubik", sans-serif;
+}
+
+footer {
+  background: linear-gradient(135deg, rgb(255, 255, 255), #dfeeff);
+}
+
+footer h4,
+footer h5 {
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: #ffd700 !important;
+  transition: 0.3s;
+}
+
+:root {
+  --primary-color: #ff6a00;
+  --secondary-color: #ff00aa70;
+  --background-color: #f8f9fa;
+  --text-color: #222;
 }
