@@ -58,7 +58,7 @@ chargedvessel26
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [GENERAL PUBLIC LICENSE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
