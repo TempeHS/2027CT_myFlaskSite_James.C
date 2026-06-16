@@ -1,6 +1,6 @@
-# Project Title
+# Street art station
 
-Simple overview of use/purpose.
+Street art station is a website full of articals and documnets about street art and its culture
 
 ## Description
 
@@ -10,13 +10,22 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+See requirements.txt for all dependencies 
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* This project and be found at https://two027ct-myflasksite-james-c.onrender.com
+* If the link does not work than you can clone the reposotry
+run this to instal the dependencies:
+
+```
+ pip instal requirements.txt
+```
+THen run the program with:
+
+```
+ python app.py
+```
 
 ### Executing program
 
