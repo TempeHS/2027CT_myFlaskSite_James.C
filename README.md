@@ -16,38 +16,37 @@ See requirements.txt for all dependencies
 
 * This project and be found at https://two027ct-myflasksite-james-c.onrender.com
 * If the link does not work than you can clone the reposotry
-run this to instal the dependencies:
+run this to install the dependencies:
 
 ```
- pip instal requirements.txt
+ pip install requirements.txt
 ```
-THen run the program with:
+then see "Executing program"
 
+### Executing program
+
+* Start by installing the Dependencies
+* THen run this command to run the program
 ```
  python app.py
 ```
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
 ## Help
 
-Any advise for common problems or issues.
+the most comman problem is that the Dependencies have not been installed 
 ```
-command to run if program contains helper info
+pip install requirements.txt
 ```
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+Mr Jones
+[@benpaddlejones](https://github.com/benpaddlejones)
+
+chargedvessel26
+[@chargedvessel26](https://github.com/chargedvessel26)
 
 ## Version History
 
